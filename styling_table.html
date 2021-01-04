@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+table, th, td {
+    border: 1px solid magenta;
+    border-collapse: inherit;
+    text-decoration-color: lightcoral;
+}
+th, td {
+    padding: 15px;
+    text-align: left;;
+}
+table#t1 {
+    width: 100%;
+    background-color: yellow;
+}
+table#t1 tr:nth-child(even){
+    background-color: green;
+}
+table#t1 tr:nth-child(odd)
+{
+    background-color: red;
+}
+table#t1 th{
+   background-color: indianred;
+   color: yellow;
+}
+
+</style>
+</head>
+<body>
+  <h2>Styling Table</h2>
+  <table style="width: 100%;">
+<tr>
+    <th>First name</th>
+    <th>Last Name</th>
+    <th>Age</th>
+</tr>
+<tr>
+    <td>jack</td>
+    <td>Jakson</td>
+    <td>94</td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>doe</td>
+    <td>80</td>
+</tr>
+<tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+</tr>
+
+</table>
+<br>
+<table id="t1">
+    <tr>
+        <th>first name</th>
+        <th>last name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>jill</td>
+        <td>smith</td>
+        <td>50</td>
+
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80s</td>
+    </tr>
+
+</table>
+  
+</body>
+</html>

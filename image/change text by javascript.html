@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>use javascripts to change the text</h2>
+    <p>This example writes "hello JavaScripts!" into an HTML element with id= "demo"</p>
+    <p id="demo"></p>
+    <button type="button" onclick="myfunction()">Click me </button>
+    <script>
+        function myfunction(){
+            document.getElementById("demo").innerHTML="Hello JavaScripts";  
+
+        }
+    </script>
+</body>
+</html>
